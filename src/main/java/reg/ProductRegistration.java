@@ -23,7 +23,7 @@ public class ProductRegistration extends HttpServlet {
 		PrintWriter out = resp.getWriter();
 
 
-//		
+//Registering Products		
 		String productName = req.getParameter("productName");
 		double productPrice = Double.parseDouble(req.getParameter("productPrice"));
 		int productUnit = Integer.parseInt(req.getParameter("productUnit"));
